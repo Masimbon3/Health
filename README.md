@@ -1,4 +1,4 @@
-# HospitalRun Frontend
+# Open Health Frontend
 
 <div align="center">
 
@@ -9,7 +9,7 @@
 
 </div>
 
-React frontend for [HospitalRun](http://hospitalrun.io/): free software for developing world hospitals.
+React frontend for Open Health: free software for healthcare delivery teams.
 
 ---
 

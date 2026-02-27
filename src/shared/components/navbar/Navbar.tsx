@@ -78,7 +78,7 @@ const Navbar = () => {
         },
         {
           type: 'header',
-          label: 'HospitalRun',
+          label: 'Open Health',
           onClick: () => {
             navigateTo('/')
           },

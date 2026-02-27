@@ -89,10 +89,10 @@ describe('Navbar', () => {
     })
 
     describe('header', () => {
-      it('should render a HospitalRun Navbar', () => {
+      it('should render an Open Health Navbar', () => {
         setup(allPermissions)
 
-        expect(screen.getByText(/hospitalrun/i)).toBeInTheDocument()
+        expect(screen.getByText(/open health/i)).toBeInTheDocument()
         expect(screen.getByRole('button', { hidden: false })).toBeInTheDocument()
       })
 
@@ -101,7 +101,7 @@ describe('Navbar', () => {
 
         history.location.pathname = '/enterprise-1701'
         expect(history.location.pathname).not.toEqual('/')
-        userEvent.click(screen.getByText(/hospitalrun/i))
+        userEvent.click(screen.getByText(/open health/i))
 
         expect(history.location.pathname).toEqual('/')
       })
